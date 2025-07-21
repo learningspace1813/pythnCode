@@ -1,0 +1,7 @@
+bhau don't take. everything will be fine.
+f = open("file.txt")
+f.read()
+f.readline()
+f.readlines()
+f.write("data")
+f.close()

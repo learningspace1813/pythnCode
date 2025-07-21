@@ -1,0 +1,67 @@
+Method	            Description
+append(x)	        - Adds x to the end of the list
+extend(iter)	    - Adds all elements from iterable
+insert(i, x)	    - Inserts x at index i
+remove(x)	        - Removes first occurrence of x
+pop(i)	            - Removes and returns element at i
+clear()	            - Removes all elements
+index(x)	        - Returns index of x
+count(x)	        - Counts occurrences of x
+sort()	            - Sorts the list in place
+reverse()	        - Reverses the list in place
+copy()	            - Returns a shallow copy of the list
+
+✅ 2. String Methods
+Method	            Description
+split()	            - Splits string into list by whitespace (default)
+strip()	            - Removes leading/trailing whitespace
+replace(a, b)	    - Replaces a with b
+lower()	            - Converts to lowercase
+upper()	            - Converts to uppercase
+capitalize()	    - Capitalizes first character
+title()	            - Capitalizes each word
+find(x)	            - Returns index of first occurrence
+startswith(x)	    - Checks if string starts with x
+endswith(x)	        - Checks if string ends with x
+join(list)	        - Joins list elements into string
+
+✅ 3. Dictionary Methods
+Method	            Description
+get(key)	        - Returns value for key, or None
+keys()	            - Returns list of keys
+values()	        - Returns list of values
+items()	            - Returns list of key-value pairs (tuples)
+update(dict)	    - Updates dictionary with another
+pop(key)	        - Removes key and returns its value
+clear()	            - Removes all items
+copy()	            - Returns a shallow copy
+setdefault(k,v)	    - Sets default if key not present
+
+✅ 4. Set Methods
+Method	            Description
+add(x)	            - Adds x to the set
+remove(x)	        - Removes x (error if not present)
+discard(x)	        - Removes x if present
+pop()	            - Removes and returns a random element
+clear()	            - Empties the set
+union(s)	        - Returns union with set s
+intersection(s)	    - Returns common elements with set s
+difference(s)	    - Returns elements not in set s
+
+✅ 5. Built-in Functions
+Function	        Description
+print()	            - Displays output
+input()	            - Takes user input as string
+len()	            - Returns length
+range()	            - Returns range object
+type()	            - Returns type of object
+int(), float()	    - Converts to number
+str()	            - Converts to string
+sum()	            - Returns sum of iterable
+min(), max()	    - Returns smallest/largest
+sorted()	        - Returns sorted list
+map(func, iter)	    - Applies func to all items
+filter(func, iter)	- Filters based on condition
+zip(a, b)	        - Combines elements into tuples
+enumerate()	        - Returns index + element pair
+
